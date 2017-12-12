@@ -26,12 +26,10 @@
  */
 #include <gtk/gtk.h>
 #include <glib/gi18n.h>
-#include <libgnomeui/libgnomeui.h>
 #include <sys/types.h>
 #include <unistd.h>
 #include <fcntl.h>
 #include <signal.h>
-#include <unique/unique.h>
 
 #include "libnwamui.h"
 #include "nwam_tree_view.h"
@@ -90,12 +88,11 @@ init_wait_for_embedding(gpointer data)
 int
 main( int argc, char* argv[] )
 {
-    GnomeProgram *program;
     GOptionContext *option_context;
-    GnomeClient *client;
     struct sigaction act;
     NwamuiProf* prof;
     GtkStatusIcon *status_icon = NULL;
+    GApplication *app = NULL;
 
     option_context = g_option_context_new (PACKAGE);
 
@@ -104,12 +101,7 @@ main( int argc, char* argv[] )
     textdomain (GETTEXT_PACKAGE);
     g_option_context_add_main_entries(option_context, option_entries, GETTEXT_PACKAGE);
 
-    program = gnome_program_init (PACKAGE, VERSION, LIBGNOMEUI_MODULE,
-                                  argc, argv,
-                                  GNOME_PARAM_APP_DATADIR, NWAM_MANAGER_DATADIR,
-                                  GNOME_PARAM_GOPTION_CONTEXT, option_context,
-                                  GNOME_PARAM_NONE);
-
+    gtk_init( &argc, &argv );
 
     gtk_icon_theme_append_search_path (gtk_icon_theme_get_default (),
                            NWAM_MANAGER_DATADIR G_DIR_SEPARATOR_S "icons");
@@ -146,32 +138,27 @@ main( int argc, char* argv[] )
     }
 #endif
 
+    app = g_application_new("com.sun.nwam-manager", 0);
     if ( !nwamui_util_is_debug_mode() ) {
-        UniqueApp       *app            = NULL;
+	GError *error = NULL;
 
-        app = unique_app_new("com.sun.nwam-manager", NULL);
-        if (unique_app_is_running(app)) {
-/*         unique_app_add_command(app, "", 1); */
-/*         unique_app_send_message(app, 1, NULL); */
-            nwamui_util_show_message( NULL, GTK_MESSAGE_INFO, _("NWAM Manager"),
-                                      _("\nAnother instance is running.\nThis instance will exit now."), TRUE );
-            g_debug("Another instance is running, exiting.");
-            exit(0);
+	g_application_register (G_APPLICATION (app), NULL, &error);
+	if (error != NULL) {
+	    g_warning ("Unable to register GApplication: %s", error->message);
+	    g_error_free (error);
+	    error = NULL;
+	} else {
+	    if (g_application_get_is_remote (G_APPLICATION (app))) {
+                nwamui_util_show_message( NULL, GTK_MESSAGE_INFO, _("NWAM Manager"),
+                                          _("\nAnother instance is running.\nThis instance will exit now."), TRUE );
+                g_debug("Another instance is running, exiting.");
+	        g_object_unref (app);
+	        exit(0);
+	    }
         }
-
-        client = gnome_master_client ();
-        gnome_client_set_restart_command (client, argc, argv);
-        gnome_client_set_restart_style (client, GNOME_RESTART_IMMEDIATELY);
     }
     else {
-        g_debug("Auto restart and uniqueness disabled while in debug mode.");
-    }
-
-    gtk_init( &argc, &argv );
-
-    /* Initialise Thread Support */
-    if (!g_thread_supported()) {
-        g_thread_init(NULL);
+        g_debug("Uniqueness is disabled while in debug mode.");
     }
 
     NWAM_TYPE_TREE_VIEW; /* Dummy to cause NwamTreeView to be loaded for GtkBuilder to find symbol */
@@ -192,7 +179,8 @@ main( int argc, char* argv[] )
     g_debug ("exiting...");
 
     g_object_unref(status_icon);
-    g_object_unref (G_OBJECT (program));
+
+    g_object_unref(app);
     
     return 0;
 }
