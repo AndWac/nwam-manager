@@ -5,6 +5,7 @@ common/nwamui_env.c
 common/nwamui_ip.c
 common/nwamui_cond.c
 common/nwamui_daemon.c
+common/nwamui_known_wlan.c
 common/nwamui_svc.c
 common/nwamui_ncu.c
 common/nwamui_ncp.c
@@ -39,7 +40,9 @@ capplet/main.c
 capplet/nwam_conn_conf_ip_panel.c
 capplet/nwam_env_pref_dialog.c
 capplet/nwam_tree_view.c
-capplet/nwam_net_conf_panel.c
+capplet/nwam_profile_dialog.c
+capplet/nwam_profile_panel.c
 capplet/nwam_condition_vbox.c
+data/nwam-manager.schemas.in
 [type: gettext/glade]ui/nwam-manager-properties.ui
 [type: gettext/glade]ui/nwam-manager-wireless.ui
