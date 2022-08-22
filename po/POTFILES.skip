@@ -1,0 +1,3 @@
+# List of source files we do not want/need to have translated.
+
+tests/main.c
