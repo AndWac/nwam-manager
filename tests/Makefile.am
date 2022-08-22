@@ -54,7 +54,7 @@ test_nwam_SOURCES =		\
 	$(NULL)
 
 test_nwam_LDADD =			\
-	$(top_srcdir)/common/libnwamui.la \
+	$(top_builddir)/common/libnwamui.la \
 	$(NWAM_MANAGER_LIBS)
 
 install-data-local:
