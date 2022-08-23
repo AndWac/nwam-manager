@@ -71,7 +71,7 @@ nwam_manager_properties_CPPFLAGS = \
 	$(NULL)
 
 nwam_manager_properties_LDADD =			\
-    $(top_srcdir)/common/libnwamui.la \
+    $(top_builddir)/common/libnwamui.la \
 	$(NWAM_MANAGER_LIBS)			\
 	$(NULL)
 
@@ -90,7 +90,7 @@ libnwamuicapplet_la_CPPFLAGS = \
 	$(NULL)
 
 libnwamuicapplet_la_LIBADD =			\
-	$(top_srcdir)/common/libnwamui.la \
+	$(top_builddir)/common/libnwamui.la \
 	$(NWAM_MANAGER_LIBS)			\
 	$(NULL)
 

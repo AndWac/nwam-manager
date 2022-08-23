@@ -68,8 +68,8 @@ nwam_manager_CPPFLAGS = \
 	$(NULL)
 
 nwam_manager_LDADD =				\
-	$(top_srcdir)/common/libnwamui.la \
-	$(top_srcdir)/capplet/libnwamuicapplet.la \
+	$(top_builddir)/common/libnwamui.la \
+	$(top_builddir)/capplet/libnwamuicapplet.la \
 	$(NWAM_MANAGER_LIBS)			\
 	$(NULL)
 
