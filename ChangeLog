@@ -1,3 +1,6 @@
+2023-11-27  Andreas Wacknitz <a.wacknitz@gmx.de>
+	* configure.in: Look in 64 bit folder for libdladm
+
 2011-07-18  Lin Ma  <lin.ma@oracle.com>
 
 	* data/nwam-manager-properties: Fixed 7066511 [nwam] user with
