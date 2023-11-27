@@ -133,12 +133,12 @@ AM_GCONF_SOURCE_2
 dnl
 dnl DLADM checks 
 dnl
-AC_CHECK_FILE(/lib/libdladm.so.1,
-	[DLADM_LIBS="/lib/libdladm.so.1 -lsocket -lnsl"
+AC_CHECK_FILE(/lib/64/libdladm.so.1,
+	[DLADM_LIBS="/lib/64/libdladm.so.1 -lsocket -lnsl"
 	AC_DEFINE(HAVE_DLADM, 1, [Define to 1 if the libdladm library is present.])],
         [AC_MSG_ERROR(
 ***
-*** /lib/libdladm.so.1 was not found. 
+*** /lib/64/libdladm.so.1 was not found. 
 ***
 	)])
 
