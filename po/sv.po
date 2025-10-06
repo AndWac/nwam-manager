@@ -1,6 +1,6 @@
 # Copyright (C) 2008 Sun Microsystems, Inc
 # This file is distributed under the same license as the nwam-manager package.
-#
+# Swedish translation
 # Desktop Discuss <desktop-discuss@opensolaris.org>
 #
 msgid ""
@@ -8,42 +8,46 @@ msgstr ""
 "Project-Id-Version: nwam-manager HEAD\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2008-10-01 12:57+0900\n"
-"PO-Revision-Date: 2008-10-01 12:57+0900\n"
-"Last-Translator: desktop-discuss@opensolaris.org\n"
+"PO-Revision-Date: 2025-10-06 15:31+0200\n"
+"Last-Translator: Daniel Nylander <github@danielnylander.se>\n"
 "Language-Team: desktop-discuss@opensolaris.org\n"
+"Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.7\n"
 
 #: ../capplet/nwam-manager-properties.glade.h:1
 msgid "<small><i><b>Example:</b> 12:34:56:78:9A:BC</i></small>"
-msgstr ""
+msgstr "<small><i><b>Exempel:</b> 12:34:56:78:9A:BC</i></small>"
 
 #: ../capplet/nwam-manager-properties.glade.h:2
 msgid "Add Wireless Network"
-msgstr ""
+msgstr "Lägg till trådlöst nätverk"
 
 #: ../capplet/nwam-manager-properties.glade.h:3
 msgid "Certificate _File:"
-msgstr ""
+msgstr "Certifikat_fil:"
 
 #: ../capplet/nwam-manager-properties.glade.h:4
 msgid "Co_nfirm Password:"
-msgstr ""
+msgstr "B_ekräfta lösenord:"
 
 #: ../capplet/nwam-manager-properties.glade.h:5
 msgid "Favorite Wireless Networks"
-msgstr ""
+msgstr "Trådlösa favoritnätverk"
 
 #: ../capplet/nwam-manager-properties.glade.h:6
 msgid ""
 "LEAP\n"
 "PEAP/MSCHAPv2"
 msgstr ""
+"LEAP\n"
+"PEAP/MSCHAPv2"
 
 #: ../capplet/nwam-manager-properties.glade.h:8
 msgid "Network Interface Priority"
-msgstr ""
+msgstr "Prioritet för nätverksgränssnitt"
 
 #: ../capplet/nwam-manager-properties.glade.h:9
 msgid ""
@@ -53,224 +57,227 @@ msgid ""
 "WPA Personal (PSK)\n"
 "WPA Enterprise (Radius)"
 msgstr ""
+"Ingen\n"
+"WEP Hex\n"
+"WEP ASCII\n"
+"WPA Personlig (PSK)\n"
+"WPA Företag (Radius)"
 
 #: ../capplet/nwam-manager-properties.glade.h:14 ../common/libnwamui.c:172
 #: ../common/libnwamui.c:173
 msgid "WEP"
-msgstr ""
+msgstr "WEP"
 
 #: ../capplet/nwam-manager-properties.glade.h:15
 msgid "WPA/2"
-msgstr ""
+msgstr "WPA/2"
 
 #: ../capplet/nwam-manager-properties.glade.h:16
 msgid "_Add to list of favorite networks on successful connection"
-msgstr ""
+msgstr "_Lägg till i listan över favoritnätverk efter lyckad anslutning"
 
 #: ../capplet/nwam-manager-properties.glade.h:17
 msgid "_BSSID (optional):"
-msgstr ""
+msgstr "_BSSID (valfritt):"
 
 #: ../capplet/nwam-manager-properties.glade.h:18
 msgid "_Configuration:"
-msgstr ""
+msgstr "_Konfiguration:"
 
 #: ../capplet/nwam-manager-properties.glade.h:19
 msgid "_More Options"
-msgstr ""
+msgstr "_Fler alternativ"
 
 #: ../capplet/nwam-manager-properties.glade.h:20
 msgid "_Network name (ESSID):"
-msgstr ""
+msgstr "_Nätverksnamn (ESSID):"
 
 #: ../capplet/nwam-manager-properties.glade.h:21
 msgid "_Password:"
-msgstr ""
+msgstr "_Lösenord:"
 
 #: ../capplet/nwam-manager-properties.glade.h:22
 msgid "_Security type:"
-msgstr ""
+msgstr "_Säkerhetstyp:"
 
 #: ../capplet/nwam-manager-properties.glade.h:23
 msgid "_Show passwords while typing"
-msgstr ""
+msgstr "_Visa lösenord medan du skriver"
 
 #: ../capplet/nwam-manager-properties.glade.h:24
 msgid "_Username:"
-msgstr ""
+msgstr "A_nvändarnamn:"
 
 #: ../capplet/nwam_fav_networks_dialog.c:159
 msgid "Network Name (ESSID)"
-msgstr ""
+msgstr "Nätverksnamn (ESSID)"
 
 #: ../capplet/nwam_fav_networks_dialog.c:180
 msgid "Access Point (BSSID)"
-msgstr ""
+msgstr "Accesspunkt (BSSID)"
 
 #: ../capplet/nwam_wireless_dialog.c:150
 msgid "Wireless NCU"
-msgstr ""
+msgstr "Trådlös NCU"
 
 #: ../capplet/nwam_wireless_dialog.c:151
 msgid "The Wireless NCU that the dialog is to work with."
-msgstr ""
+msgstr "Den trådlösa NCU som dialogen ska arbeta med."
 
 #: ../capplet/nwam_wireless_dialog.c:158
 msgid "Wireless ESSID"
-msgstr ""
+msgstr "Trådlös ESSID"
 
 #: ../capplet/nwam_wireless_dialog.c:159
 msgid "The Wireless ESSID to connect to."
-msgstr ""
+msgstr "Det trådlösa ESSID som du vill ansluta till."
 
 #: ../capplet/nwam_wireless_dialog.c:165
 msgid "Wireless Security Type"
-msgstr ""
+msgstr "Trådlös säkerhetstyp"
 
 #: ../capplet/nwam_wireless_dialog.c:166
 msgid "The Wireless security (None/WEP/WPA)."
-msgstr ""
+msgstr "Trådlös säkerhet (Ingen/WEP/WPA)."
 
 #: ../capplet/nwam_wireless_dialog.c:173
 msgid "Wireless Security Key"
-msgstr ""
+msgstr "Nyckel för trådlös säkerhet"
 
 #: ../capplet/nwam_wireless_dialog.c:174
 msgid "The Wireless security key."
-msgstr ""
+msgstr "Nyckeln för trådlösa säkerhet."
 
 #: ../capplet/nwam_wireless_dialog.c:180
 msgid "WPA Username"
-msgstr ""
+msgstr "Användarnamn för WPA"
 
 #: ../capplet/nwam_wireless_dialog.c:181
 msgid "The Username to use for a WPA connection."
-msgstr ""
+msgstr "Det användarnamn som ska användas för en WPA-anslutning."
 
 #: ../capplet/nwam_wireless_dialog.c:187
 msgid "WPA Password"
-msgstr ""
+msgstr "WPA-lösenord"
 
 #: ../capplet/nwam_wireless_dialog.c:188
 msgid "The Password to use for a WPA connection."
-msgstr ""
+msgstr "Lösenordet som ska användas för en WPA-anslutning."
 
 #: ../capplet/nwam_wireless_dialog.c:194
 msgid "WPA Config Type"
-msgstr ""
+msgstr "Typ av WPA-konfiguration"
 
 #: ../capplet/nwam_wireless_dialog.c:195
 msgid "The type of WPA Connection (Automatic or TTLS-PAP)"
-msgstr ""
+msgstr "Typ av WPA-anslutning (Automatisk eller TTLS-PAP)"
 
 #: ../capplet/nwam_wireless_dialog.c:203
 msgid "WPA Cert File"
-msgstr ""
+msgstr "WPA-certifikatsfil"
 
 #: ../capplet/nwam_wireless_dialog.c:204
 msgid "The Certificate File to use for WPA."
-msgstr ""
+msgstr "Den certifikatfil som ska användas för WPA."
 
 #: ../capplet/nwam_wireless_dialog.c:210
 msgid "Wireless BSSID"
-msgstr ""
+msgstr "Trådlös BSSID"
 
 #: ../capplet/nwam_wireless_dialog.c:211
 msgid "The Wireless AP BSSID to connect to."
-msgstr ""
+msgstr "BSSID för den trådlösa AP:n som du vill ansluta till."
 
 #: ../capplet/nwam_wireless_dialog.c:217
 msgid "Wireless Network is Transient"
-msgstr ""
+msgstr "Trådlöst nätverk är föränderligt"
 
 #: ../capplet/nwam_wireless_dialog.c:218
 msgid "This Wireless Network shouldn't be remembered on permanently"
-msgstr ""
+msgstr "Det här trådlösa nätverket ska inte vara kvar permanent"
 
 #: ../capplet/nwam_wireless_dialog.c:1077
-msgid ""
-"The Wireless network name (ESSID) contains invalid (non-ASCII) characters."
-msgstr ""
+msgid "The Wireless network name (ESSID) contains invalid (non-ASCII) characters."
+msgstr "Namnet på det trådlösa nätverket (ESSID) innehåller ogiltiga tecken (icke-ASCII)."
 
 #: ../capplet/nwam_wireless_dialog.c:1082
 msgid "The Wireless network name (ESSID) should not be blank."
-msgstr ""
+msgstr "Namnet på det trådlösa nätverket (ESSID) får inte vara tomt."
 
 #: ../capplet/nwam_wireless_dialog.c:1093
 msgid "Wireless AP (BSSID) is not a valid address"
-msgstr ""
+msgstr "Trådlös AP (BSSID) är inte en giltig adress"
 
 #. Different, so FALSE
 #: ../capplet/nwam_wireless_dialog.c:1114
 msgid "Keys entered are different"
-msgstr ""
+msgstr "Inmatade nycklar är olika"
 
 #. All other conditions, FALSE
 #: ../capplet/nwam_wireless_dialog.c:1136
 msgid "Invalid data entered"
-msgstr ""
+msgstr "Ogiltig data inmatad"
 
 #: ../capplet/nwam_wireless_dialog.c:1208
 msgid "Validation Failed."
-msgstr ""
+msgstr "Valideringen misslyckades."
 
 #: ../capplet/nwam_net_priority_dialog.c:157 ../daemon/main.c:508
 msgid "Network Interface"
-msgstr ""
+msgstr "Nätverksgränssnitt"
 
 #: ../capplet/nwam_net_priority_dialog.c:371
 msgid "Enabled"
-msgstr ""
+msgstr "Aktiverad"
 
 #: ../capplet/nwam_net_priority_dialog.c:371
 msgid "Disabled"
-msgstr ""
+msgstr "Inaktiverad"
 
 #: ../daemon/nwam-manager.schemas.in.h:1 ../common/nwamui_prof.c:141
 #: ../common/nwamui_prof.c:142
 msgid "Adding any new network to your favorites list"
-msgstr ""
+msgstr "Lägger till ett nytt nätverk i din favoritlista"
 
 #: ../daemon/nwam-manager.schemas.in.h:2 ../common/nwamui_prof.c:125
 #: ../common/nwamui_prof.c:126
 msgid "Joining an open network that is not in your favorites list"
-msgstr ""
+msgstr "Anslut till ett öppet nätverk som inte finns med i din favoritlista"
 
 #: ../daemon/nwam-manager.schemas.in.h:3 ../common/nwamui_prof.c:133
 #: ../common/nwamui_prof.c:134
 msgid "Joining any favorite network"
-msgstr ""
+msgstr "Ansluter till något favoritnätverk"
 
 #: ../daemon/nwam-manager.schemas.in.h:4
-msgid ""
-"The default timeout of notification in milliseconds, must greater than zero."
-msgstr ""
+msgid "The default timeout of notification in milliseconds, must greater than zero."
+msgstr "Standardtimeout för meddelanden i millisekunder, måste vara större än noll."
 
 #: ../daemon/nwam-manager.schemas.in.h:5
 msgid "add_any_new_wifi_to_fav"
-msgstr ""
+msgstr "lägg_till_nytt_wifi_till_fav"
 
 #: ../daemon/nwam-manager.schemas.in.h:6
 msgid "join_any_fav_wifi"
-msgstr ""
+msgstr "join_any_fav_wifi"
 
 #: ../daemon/nwam-manager.schemas.in.h:7
 msgid "join_wifi_not_in_fav"
-msgstr ""
+msgstr "join_wifi_not_in_fav"
 
 #: ../daemon/nwam-manager.schemas.in.h:8
 msgid "notification_default_timeout"
-msgstr ""
+msgstr "meddelande_standard_timeout"
 
 #: ../daemon/nwam-menuitem.c:111 ../daemon/nwam-menuitem.c:112
 #: ../daemon/nwam-action.c:110 ../daemon/nwam-action.c:111
 msgid "Left widget, ref'd"
-msgstr ""
+msgstr "Vänster widget, ref"
 
 #: ../daemon/nwam-menuitem.c:118 ../daemon/nwam-menuitem.c:119
 #: ../daemon/nwam-action.c:117 ../daemon/nwam-action.c:118
 msgid "Right widget, ref'd"
-msgstr ""
+msgstr "Höger widget, ref"
 
 #: ../daemon/status_icon.c:182
 #, c-format
@@ -278,23 +285,25 @@ msgid ""
 "%s\n"
 "%s"
 msgstr ""
+"%s\n"
+"%s"
 
 #: ../daemon/status_icon.c:185 ../common/nwamui_wifi_net.c:768
 #, c-format
 msgid "%s"
-msgstr ""
+msgstr "%s"
 
 #: ../daemon/nwam-action.c:103
 msgid "NwamuiWifiNet instance"
-msgstr ""
+msgstr "NwamuiWifiNet-instans"
 
 #: ../daemon/nwam-action.c:104
 msgid "Wireless AP"
-msgstr ""
+msgstr "Trådlös AP"
 
 #: ../daemon/main.c:58
 msgid "Enable debugging messages"
-msgstr ""
+msgstr "Aktivera felsökningsmeddelanden"
 
 #: ../daemon/main.c:150
 #, c-format
@@ -302,6 +311,8 @@ msgid ""
 "\n"
 "Wired (%s): %s"
 msgstr ""
+"\n"
+"Kabelansluten (%s): %s"
 
 #: ../daemon/main.c:153
 #, c-format
@@ -309,41 +320,45 @@ msgid ""
 "\n"
 "Wireless (%s): %s"
 msgstr ""
+"\n"
+"Trådlös (%s): %s"
 
 #: ../daemon/main.c:196
 #, c-format
 msgid "Wireless (%s) network interface is active."
-msgstr ""
+msgstr "Det trådlösa (%s) nätverksgränssnittet är aktivt."
 
 #: ../daemon/main.c:199
 #, c-format
 msgid "Wired (%s) network interface is active."
-msgstr ""
+msgstr "Det trådbundna (%s) nätverksgränssnittet är aktivt."
 
 #: ../daemon/main.c:205
 #, c-format
 msgid "No network interface is active."
-msgstr ""
+msgstr "Inget nätverksgränssnitt är aktivt."
 
 #: ../daemon/main.c:254 ../daemon/main.c:256
 msgid "Automatic network configuration daemon is unavailable."
-msgstr ""
+msgstr "Daemon för automatisk nätverkskonfiguration är inte tillgänglig."
 
 #: ../daemon/main.c:257
 msgid ""
 "For further information please run\n"
 "\"svcs -xv nwam\" in a terminal."
 msgstr ""
+"För ytterligare information, kör\n"
+"\"svcs -xv nwam\" i en terminal."
 
 #: ../daemon/main.c:319 ../daemon/main.c:523
 #, c-format
 msgid "Connected to wireless network '%s'"
-msgstr ""
+msgstr "Ansluten till trådlösa nätverket '%s'"
 
 #: ../daemon/main.c:344
 #, c-format
 msgid "Disconnected from Wireless Network '%s'"
-msgstr ""
+msgstr "Frånkopplad från trådlösa nätverket '%s'"
 
 #: ../daemon/main.c:345
 #, c-format
@@ -351,25 +366,27 @@ msgid ""
 "%s\n"
 "Click here to join another wireless network."
 msgstr ""
+"%s\n"
+"Klicka här för att ansluta till ett annat trådlöst nätverk."
 
 #: ../daemon/main.c:380 ../daemon/main.c:405
 msgid "Automatic Network Configuration Daemon"
-msgstr ""
+msgstr "Daemon för automatisk nätverkskonfiguration"
 
 #: ../daemon/main.c:426
 #, c-format
 msgid "'%s' requires authentication"
-msgstr ""
+msgstr "'%s' kräver autentisering"
 
 #: ../daemon/main.c:428
 #, c-format
 msgid "Click here to enter the wireless network key."
-msgstr ""
+msgstr "Klicka här för att ange nyckeln till det trådlösa nätverket."
 
 #: ../daemon/main.c:460
 #, c-format
 msgid "Wireless networks available"
-msgstr ""
+msgstr "Trådlösa nätverk tillgängliga"
 
 #: ../daemon/main.c:461
 #, c-format
@@ -377,20 +394,22 @@ msgid ""
 "Right-click the icon to connect \n"
 "%s network interface to an available network."
 msgstr ""
+"Högerklicka på ikonen för att ansluta\n"
+"%s nätverksgränssnitt till ett tillgängligt nätverk."
 
 #: ../daemon/main.c:467
 msgid "Right-click to select wireless network"
-msgstr ""
+msgstr "Högerklicka för att välja trådlöst nätverk"
 
 #: ../daemon/main.c:507 ../daemon/main.c:528
 #, c-format
 msgid "%s network interface is connected."
-msgstr ""
+msgstr "%s nätverksgränssnittet är anslutet."
 
 #: ../daemon/main.c:508 ../daemon/main.c:531
 #, c-format
 msgid "%s: %s"
-msgstr ""
+msgstr "%s: %s"
 
 #: ../daemon/main.c:510 ../daemon/main.c:533
 #, c-format
@@ -398,18 +417,20 @@ msgid ""
 "\n"
 "%s: %s"
 msgstr ""
+"\n"
+"%s: %s"
 
 #: ../daemon/main.c:510
 msgid "Network Address"
-msgstr ""
+msgstr "Nätverksadress"
 
 #: ../daemon/main.c:531
 msgid "Interface"
-msgstr ""
+msgstr "Gränssnitt"
 
 #: ../daemon/main.c:533
 msgid "Address"
-msgstr ""
+msgstr "Adress"
 
 #: ../daemon/main.c:536
 #, c-format
@@ -417,25 +438,27 @@ msgid ""
 "\n"
 "%s: %d"
 msgstr ""
+"\n"
+"%s: %d"
 
 #: ../daemon/main.c:536
 msgid "Signal Strength"
-msgstr ""
+msgstr "Signalstyrka"
 
 #: ../daemon/main.c:581 ../daemon/main.c:592
 #, c-format
 msgid "%s disconnected from network."
-msgstr ""
+msgstr "%s bortkopplad från nätverket."
 
 #: ../daemon/main.c:628
 #, c-format
 msgid "Activating %s network interface..."
-msgstr ""
+msgstr "Aktivering av %s nätverksgränssnitt..."
 
 #: ../daemon/main.c:663
 #, c-format
 msgid "Failed to connect to wireless network '%s'. %s"
-msgstr ""
+msgstr "Misslyckades med att ansluta till det trådlösa nätverket '%s'. %s"
 
 #: ../daemon/main.c:665
 msgid ""
@@ -444,59 +467,63 @@ msgid ""
 "\n"
 "Click here to re-enter the wireless key."
 msgstr ""
+"DHCP-servern kanske inte svarar, eller så\n"
+"du kanske har angett fel trådlös nyckel.\n"
+"\n"
+"Klicka här för att ange den trådlösa nyckeln igen."
 
 #: ../daemon/main.c:844
 msgid "There are no wireless network interfaces"
-msgstr ""
+msgstr "Det finns inga trådlösa nätverksgränssnitt"
 
 #: ../daemon/main.c:935
 msgid "No wireless network interfaces available"
-msgstr ""
+msgstr "Inga trådlösa nätverksgränssnitt tillgängliga"
 
 #: ../daemon/nwam-menu.c:188
 msgid "_Edit Network Interface Priorities..."
-msgstr ""
+msgstr "R_edigera prioriteringar för nätverkgränssnitt..."
 
 #: ../daemon/nwam-menu.c:192
 msgid "_Join Unlisted Wireless Network..."
-msgstr ""
+msgstr "_Anslut till annat trådlöst nätverk..."
 
 #: ../daemon/nwam-menu.c:196
 msgid "_Manage Favorite Wireless Networks..."
-msgstr ""
+msgstr "_Hantera trådlösa favoritnätverk ..."
 
 #: ../daemon/nwam-menu.c:273 ../daemon/nwam-menu.c:1047
 #: ../common/nwamui_ncp.c:583
 msgid "Wireless"
-msgstr ""
+msgstr "Trådlös"
 
 #: ../daemon/nwam-menu.c:276 ../daemon/nwam-menu.c:1050
 #: ../common/nwamui_ncp.c:583
 msgid "Wired"
-msgstr ""
+msgstr "Kabelansluten"
 
 #: ../daemon/nwam-menu.c:278
 #, c-format
 msgid "_Automatic Network Interface Selection - Current: %s (%s)"
-msgstr ""
+msgstr "_Automatiskt val av nätverksgränssnitt - Aktuellt: %s (%s)"
 
 #: ../daemon/nwam-menu.c:282
 #, c-format
 msgid "_Automatic Network Interface Selection "
-msgstr ""
+msgstr "_Automatiskt val av nätverksgränssnitt "
 
 #: ../daemon/nwam-menu.c:665
 msgid "NWAM Manager"
-msgstr ""
+msgstr "NWAM-hanterare"
 
 #: ../daemon/nwam-menu.c:666
 msgid "About NWAM Manager"
-msgstr ""
+msgstr "Om NWAM Manager"
 
 #: ../daemon/nwam-menu.c:889
 #, c-format
 msgid "Wireless network '%s' added to favorites"
-msgstr ""
+msgstr "Trådlöst nätverk '%s' läggs till i favoriter"
 
 #: ../daemon/nwam-menu.c:891
 #, c-format
@@ -504,11 +531,13 @@ msgid ""
 "Click here to view or edit your list of favorite\n"
 "wireless networks."
 msgstr ""
+"Klicka här för att visa eller redigera din lista över\n"
+"trådlösa favoritnätverk."
 
 #: ../daemon/nwam-menu.c:1052
 #, c-format
 msgid "Always Use %s Network Interface (%s)"
-msgstr ""
+msgstr "Använd alltid %s nätverksgränssnitt (%s)"
 
 #: ../daemon/notify.c:487
 #, c-format
@@ -516,321 +545,323 @@ msgid ""
 "  %s\n"
 "    %s"
 msgstr ""
+"  %s\n"
+"    %s"
 
 #: ../daemon/notify.c:490
 #, c-format
 msgid "  %s"
-msgstr ""
+msgstr "  %s"
 
 #: ../common/nwamui_ncu.c:149 ../common/nwamui_ncu.c:150
 msgid "vanity_name"
-msgstr ""
+msgstr "vanity_name"
 
 #: ../common/nwamui_ncu.c:157 ../common/nwamui_ncu.c:158
 msgid "device_name"
-msgstr ""
+msgstr "enhetsnamn"
 
 #: ../common/nwamui_ncu.c:165 ../common/nwamui_ncu.c:166
 msgid "phy_address"
-msgstr ""
+msgstr "phy_adress"
 
 #: ../common/nwamui_ncu.c:173 ../common/nwamui_ncu.c:174
 msgid "ncu_type"
-msgstr ""
+msgstr "ncu_typ"
 
 #: ../common/nwamui_ncu.c:183 ../common/nwamui_ncu.c:184
 msgid "active"
-msgstr ""
+msgstr "aktiv"
 
 #: ../common/nwamui_ncu.c:191 ../common/nwamui_ncu.c:192
 #: ../common/nwamui_wifi_net.c:173 ../common/nwamui_wifi_net.c:174
 msgid "speed"
-msgstr ""
+msgstr "hastighet"
 
 #: ../common/nwamui_ncu.c:201 ../common/nwamui_ncu.c:202
 msgid "ipv4_auto_conf"
-msgstr ""
+msgstr "ipv4_auto_conf"
 
 #: ../common/nwamui_ncu.c:210 ../common/nwamui_ncu.c:211
 msgid "ipv4_address"
-msgstr ""
+msgstr "ipv4_address"
 
 #: ../common/nwamui_ncu.c:218 ../common/nwamui_ncu.c:219
 msgid "ipv4_subnet"
-msgstr ""
+msgstr "ipv4_subnet"
 
 #: ../common/nwamui_ncu.c:226 ../common/nwamui_ncu.c:227
 msgid "ipv4_gateway"
-msgstr ""
+msgstr "ipv4_gateway"
 
 #: ../common/nwamui_ncu.c:234 ../common/nwamui_ncu.c:235
 msgid "ipv6_active"
-msgstr ""
+msgstr "ipv6_active"
 
 #: ../common/nwamui_ncu.c:242 ../common/nwamui_ncu.c:243
 msgid "ipv6_auto_conf"
-msgstr ""
+msgstr "ipv6_auto_conf"
 
 #: ../common/nwamui_ncu.c:251 ../common/nwamui_ncu.c:252
 msgid "ipv6_address"
-msgstr ""
+msgstr "ipv6_address"
 
 #: ../common/nwamui_ncu.c:259 ../common/nwamui_ncu.c:260
 msgid "ipv6_prefix"
-msgstr ""
+msgstr "ipv6_prefix"
 
 #: ../common/nwamui_ncu.c:267 ../common/nwamui_ncu.c:268
 msgid "v4addresses"
-msgstr ""
+msgstr "v4addresses"
 
 #: ../common/nwamui_ncu.c:275 ../common/nwamui_ncu.c:276
 msgid "v6addresses"
-msgstr ""
+msgstr "v6addresses"
 
 #: ../common/nwamui_ncu.c:283 ../common/nwamui_ncu.c:284
 msgid "Wi-Fi configuration information."
-msgstr ""
+msgstr "Information om Wi-Fi-konfiguration."
 
 #: ../common/nwamui_ncu.c:291 ../common/nwamui_ncu.c:292
 msgid "rules_enabled"
-msgstr ""
+msgstr "rules_enabled"
 
 #: ../common/nwamui_ncu.c:299 ../common/nwamui_ncu.c:300
 msgid "rules_ncus"
-msgstr ""
+msgstr "rules_ncus"
 
 #: ../common/nwamui_ncu.c:306 ../common/nwamui_ncu.c:307
 msgid "rules_ncu_state"
-msgstr ""
+msgstr "rules_ncu_state"
 
 #: ../common/nwamui_ncu.c:316 ../common/nwamui_ncu.c:317
 msgid "rules_action"
-msgstr ""
+msgstr "rules_action"
 
 #: ../common/nwamui_ncu.c:326 ../common/nwamui_ncu.c:327
 msgid "priority"
-msgstr ""
+msgstr "prioritet"
 
 #: ../common/nwamui_ncu.c:924 ../common/nwamui_ncp.c:582
 #, c-format
 msgid "%s (%s)"
-msgstr ""
+msgstr "%s (%s)"
 
 #: ../common/libnwamui.c:153
 msgid "WEP Hex"
-msgstr ""
+msgstr "WEP Hex"
 
 #: ../common/libnwamui.c:154
 msgid "WEP ASCII"
-msgstr ""
+msgstr "WEP ASCII"
 
 #: ../common/libnwamui.c:155
 msgid "WPA Personal(PSK)"
-msgstr ""
+msgstr "WPA Personlig (PSK)"
 
 #: ../common/libnwamui.c:156
 msgid "WPA Enterprise (Radius)"
-msgstr ""
+msgstr "WPA Företag (Radius)"
 
 #: ../common/libnwamui.c:157
 msgid "None"
-msgstr ""
+msgstr "Ingen"
 
 #: ../common/libnwamui.c:174 ../common/libnwamui.c:175
 msgid "WPA"
-msgstr ""
+msgstr "WPA"
 
 #: ../common/libnwamui.c:176
 msgid "Open"
-msgstr ""
+msgstr "Öppet"
 
 #: ../common/libnwamui.c:192
 msgid "LEAP"
-msgstr ""
+msgstr "LEAP"
 
 #: ../common/libnwamui.c:193
 msgid "PEAP/MSCHAPv2"
-msgstr ""
+msgstr "PEAP/MSCHAPv2"
 
 #. fall through
 #: ../common/libnwamui.c:195
 msgid "Automatic"
-msgstr ""
+msgstr "Automatiskt"
 
 #: ../common/libnwamui.c:469
 msgid "Could not display help"
-msgstr ""
+msgstr "Kunde inte visa hjälp"
 
 #: ../common/libnwamui.c:551
 msgid "This operation cannot be undone."
-msgstr ""
+msgstr "Denna åtgärd kan inte ångras."
 
 #: ../common/nwamui_prof.c:149 ../common/nwamui_prof.c:150
 msgid "The action if no favorite networks are available"
-msgstr ""
+msgstr "Åtgärden om inga favoritnätverk är tillgängliga"
 
 #: ../common/nwamui_prof.c:159 ../common/nwamui_prof.c:160
 #: ../common/nwamui_prof.c:167 ../common/nwamui_prof.c:168
 msgid "Active Interface"
-msgstr ""
+msgstr "Aktivt gränssnitt"
 
 #: ../common/nwamui_wifi_net.c:111 ../common/nwamui_wifi_net.c:112
 msgid "NCU that AP is seen on"
-msgstr ""
+msgstr "NCU som AP har setts på"
 
 #: ../common/nwamui_wifi_net.c:119 ../common/nwamui_wifi_net.c:120
 msgid "Wifi Network ESSID"
-msgstr ""
+msgstr "Wifi-nätverk ESSID"
 
 #: ../common/nwamui_wifi_net.c:127 ../common/nwamui_wifi_net.c:128
 msgid "Wifi Network BSSID"
-msgstr ""
+msgstr "Wifi nätverk BSSID"
 
 #: ../common/nwamui_wifi_net.c:135 ../common/nwamui_wifi_net.c:136
 msgid "Wifi Network Status"
-msgstr ""
+msgstr "Status för Wifi-nätverk"
 
 #: ../common/nwamui_wifi_net.c:144 ../common/nwamui_wifi_net.c:145
 msgid "Wifi Network Security"
-msgstr ""
+msgstr "Säkerhet för Wifi-nätverk"
 
 #: ../common/nwamui_wifi_net.c:153 ../common/nwamui_wifi_net.c:154
 msgid "Wifi Network Signal Strength"
-msgstr ""
+msgstr "Signalstyrka för Wifi-nätverk"
 
 #: ../common/nwamui_wifi_net.c:163
 msgid "Wifi BSS Type"
-msgstr ""
+msgstr "Wifi BSS-typ"
 
 #: ../common/nwamui_wifi_net.c:164
 msgid "Wifi BSS Type (AP or AD-HOC)"
-msgstr ""
+msgstr "Wifi BSS-typ (AP eller AD-HOC)"
 
 #: ../common/nwamui_wifi_net.c:183 ../common/nwamui_wifi_net.c:184
 msgid "mode"
-msgstr ""
+msgstr "läge"
 
 #: ../common/nwamui_wifi_net.c:191 ../common/nwamui_wifi_net.c:192
 msgid "Wifi WPA Configuration Type"
-msgstr ""
+msgstr "Wifi WPA-konfigurationstyp"
 
 #: ../common/nwamui_wifi_net.c:202 ../common/nwamui_wifi_net.c:203
 msgid "Wifi WEP Password"
-msgstr ""
+msgstr "Wifi WEP-lösenord"
 
 #: ../common/nwamui_wifi_net.c:210 ../common/nwamui_wifi_net.c:211
 msgid "Wifi WPA Username"
-msgstr ""
+msgstr "Wifi WPA-användarnamn"
 
 #: ../common/nwamui_wifi_net.c:218 ../common/nwamui_wifi_net.c:219
 msgid "Wifi WPA Password"
-msgstr ""
+msgstr "Wifi WPA-lösenord"
 
 #: ../common/nwamui_wifi_net.c:226 ../common/nwamui_wifi_net.c:227
 msgid "Wifi WPA Certificate File Path"
-msgstr ""
+msgstr "Wifi WPA-certifikatets filsökväg"
 
 #: ../common/nwamui_wifi_net.c:652
 msgid "Failed to initiate connection to wireless network."
-msgstr ""
+msgstr "Misslyckades med att initiera anslutning till trådlöst nätverk."
 
 #: ../common/nwamui_wifi_net.c:763
 #, c-format
 msgid "[%s] "
-msgstr ""
+msgstr "[%s] "
 
 #: ../common/nwamui_wifi_net.c:771
 #, c-format
 msgid " (Computer-to-Computer)"
-msgstr ""
+msgstr " (Dator-till-dator)"
 
 #: ../common/nwamui_daemon.c:161 ../common/nwamui_daemon.c:162
 msgid "status"
-msgstr ""
+msgstr "status"
 
 #: ../common/nwamui_daemon.c:171 ../common/nwamui_daemon.c:172
 msgid "event_cause"
-msgstr ""
+msgstr "orsak_till_händelse"
 
 #: ../common/nwamui_daemon.c:1031 ../common/nwamui_daemon.c:1049
 msgid "unknown"
-msgstr ""
+msgstr "okänd"
 
 #: ../common/nwamui_daemon.c:1034
 msgid "DHCP down"
-msgstr ""
+msgstr "DHCP nere"
 
 #: ../common/nwamui_daemon.c:1035
 msgid "DHCP timed out"
-msgstr ""
+msgstr "DHCP översteg tidsgränsen"
 
 #: ../common/nwamui_daemon.c:1036
 msgid "Cable disconnected"
-msgstr ""
+msgstr "Kabeln är frånkopplad"
 
 #: ../common/nwamui_daemon.c:1037
 msgid "User changed priority"
-msgstr ""
+msgstr "Användaren ändrade prioritet"
 
 #: ../common/nwamui_daemon.c:1038
 msgid "Higher priority, cable connected"
-msgstr ""
+msgstr "Högre prioritet, kabelansluten"
 
 #: ../common/nwamui_daemon.c:1039
 msgid "Scan done on higher-priority wireless network interface"
-msgstr ""
+msgstr "Skanning görs på trådlöst nätverksgränssnitt med högre prioritet"
 
 #: ../common/nwamui_daemon.c:1040
 msgid "Periodic scan shows wireless network gone."
-msgstr ""
+msgstr "Periodisk skanning visar att det trådlösa nätverket är borta."
 
 #: ../common/nwamui_daemon.c:1041
 msgid "Periodic scan shows very weak signal on wireless network"
-msgstr ""
+msgstr "Periodisk skanning visar mycket svag signal i trådlöst nätverk"
 
 #: ../common/nwamui_daemon.c:1042
 msgid "All network interfaces but one going down"
-msgstr ""
+msgstr "Alla nätverksgränssnitt utom ett går ner"
 
 #: ../common/nwamui_daemon.c:1043
 msgid "Another network interface is already active"
-msgstr ""
+msgstr "Ett annat nätverksgränssnitt är redan aktivt"
 
 #: ../common/nwamui_daemon.c:1044
 msgid "NWAM Daemon is shutting down"
-msgstr ""
+msgstr "NWAM Daemon stänger ner"
 
 #: ../common/nwamui_daemon.c:1045
 msgid "Different AP selected"
-msgstr ""
+msgstr "Annan AP vald"
 
 #: ../common/nwamui_daemon.c:1046
 msgid "Hardware removed"
-msgstr ""
+msgstr "Hårdvara frånkopplad"
 
 #: ../common/nwamui_daemon.c:1047
 msgid "none"
-msgstr ""
+msgstr "ingen"
 
 #: ../common/nwamui_daemon.c:1415 ../common/nwamui_daemon.c:1703
 #, c-format
 msgid "New wireless networks found."
-msgstr ""
+msgstr "Nya trådlösa nätverk har hittats."
 
 #: ../common/nwamui_daemon.c:1429
 #, c-format
 msgid "User script '%s' activated"
-msgstr ""
+msgstr "Användarskript '%s' aktiverat"
 
 #: ../common/nwamui_daemon.c:1439
 #, c-format
 msgid "User script '%s' deactivated"
-msgstr ""
+msgstr "Användarskriptet '%s' inaktiverat"
 
 #: ../common/nwamui_daemon.c:1564
 #, c-format
 msgid "%s network interface is up."
-msgstr ""
+msgstr "%s nätverksgränssnittet är uppe."
 
 #: ../common/nwamui_daemon.c:1603
 #, c-format
@@ -838,45 +869,47 @@ msgid ""
 "%s network interface brought down\n"
 "Reason: %s"
 msgstr ""
+"%s nätverksgränssnittet har tagits ner\n"
+"Orsak: %s"
 
 #: ../common/nwamui_daemon.c:1785
 #, c-format
 msgid "%s network interface failed to start DHCP request."
-msgstr ""
+msgstr "%s nätverksgränssnittet misslyckades med att starta DHCP-begäran."
 
 #: ../common/nwamui_daemon.c:1795
 #, c-format
 msgid "%s network interface failed to get response from DHCP request."
-msgstr ""
+msgstr "%s nätverksgränssnittet misslyckades med att få svar på DHCP-begäran."
 
 #: ../common/nwamui_ip.c:89 ../common/nwamui_ip.c:90
 msgid "is_v6"
-msgstr ""
+msgstr "is_v6"
 
 #: ../common/nwamui_ip.c:97 ../common/nwamui_ip.c:98
 msgid "address"
-msgstr ""
+msgstr "adress"
 
 #: ../common/nwamui_ip.c:105 ../common/nwamui_ip.c:106
 msgid "subnet_prefix"
-msgstr ""
+msgstr "subnet_prefix"
 
 #: ../common/nwamui_ncp.c:112 ../common/nwamui_ncp.c:113
 msgid "Name of the NCP"
-msgstr ""
+msgstr "Den på NCP"
 
 #: ../common/nwamui_ncp.c:120 ../common/nwamui_ncp.c:121
 msgid "List of NCUs in the NCP"
-msgstr ""
+msgstr "Lista över NCU:er i NCP"
 
 #: ../common/nwamui_ncp.c:128 ../common/nwamui_ncp.c:129
 msgid "Active NCU"
-msgstr ""
+msgstr "Aktiv NCU"
 
 #: ../common/nwamui_ncp.c:136 ../common/nwamui_ncp.c:137
 msgid "selection_mode"
-msgstr ""
+msgstr "val_läge"
 
 #: ../common/nwamui_ncp.c:146 ../common/nwamui_ncp.c:147
 msgid "many_wireless"
-msgstr ""
+msgstr "många_trådlösa"
